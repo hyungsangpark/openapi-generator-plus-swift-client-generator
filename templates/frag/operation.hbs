@@ -28,7 +28,7 @@
 {{/with}}
 {{/if}}
 {{/join}}
-public enum {{className name}}Result {
+public enum {{className name}}Result: Swift.Sendable {
 {{#each responses}}
     {{#ifneq code 401}}
     {{#if description}}
