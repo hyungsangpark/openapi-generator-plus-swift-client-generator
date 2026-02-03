@@ -84,8 +84,9 @@ const RESERVED_WORDS = [
 	'else', 'enum', 'extension', 'fallthrough', 'false', 'fileprivate', 'final', 'for', 'func', 'get', 'guard', 'if', 'import', 'in', 'indirect', 'infix', 'init', 'inout',
 	'internal', 'is', 'lazy', 'left', 'let', 'mutating', 'nil', 'none', 'nonmutating', 'open', 'operator', 'optional', 'override', 'postfix', 'precedence', 'prefix', 'private',
 	'protocol', 'public', 'repeat', 'required', 'rethrows', 'return', 'right', 'self', 'set', 'static', 'struct', 'subscript', 'super', 'switch', 'throw', 'throws', 'true',
-	'try', 'typealias', 'unowned', 'var', 'weak', 'where', 'while', 'willSet', 'Sendable', 'Hashable',
+	'try', 'typealias', 'unowned', 'var', 'weak', 'where', 'while', 'willSet',
 	'LocalDate', 'LocalTime', 'OffsetDateTime', 'Decimal', 'String', 'Void', 'File', 'FormData',
+	'Sendable', 'Hashable',
 	'unknown', // for our enum cases
 	'RetryConfiguration', 'Configuration',
 	'SecurityClient', 'SecurityClientController', 'SecurityScheme', 'OAuthPasswordFlowClient', 'OAuthClientCredentialsFlowClient', 'OAuthAuthorizationCodeFlowClient', 
